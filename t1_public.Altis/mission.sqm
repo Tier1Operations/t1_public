@@ -78,7 +78,7 @@ class Mission
 						items=9;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_require";
 							typeName="debug";
 						};
@@ -154,7 +154,7 @@ class Mission
 						items=8;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_sys_profile";
 							typeName="debug";
 						};
@@ -224,7 +224,7 @@ class Mission
 						items=35;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="debug";
 						};
@@ -242,7 +242,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="500";
+							value="1000";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="minVD";
 						};
@@ -266,7 +266,7 @@ class Mission
 						};
 						class Item7
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="enablePlayerPersistence";
 						};
@@ -602,7 +602,7 @@ class Mission
 						items=20;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_placement";
 							typeName="debug";
 						};
@@ -746,7 +746,7 @@ class Mission
 						items=9;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_OPCOM";
 							typeName="debug";
 						};
@@ -950,7 +950,7 @@ class Mission
 						items=9;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_OPCOM";
 							typeName="debug";
 						};
@@ -1028,7 +1028,7 @@ class Mission
 						items=10;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_logistics";
 							typeName="debug";
 						};
@@ -2039,7 +2039,7 @@ class Mission
 						items=16;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_debug_setting";
 						};
@@ -2063,7 +2063,7 @@ class Mission
 						};
 						class Item4
 						{
-							value="all";
+							value="towns";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_LOCATIONTYPE";
 						};
@@ -2099,7 +2099,7 @@ class Mission
 						};
 						class Item10
 						{
-							value="700";
+							value="900";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_spawndistance";
 						};
@@ -2129,7 +2129,7 @@ class Mission
 						};
 						class Item15
 						{
-							value="BLUFOR_1";
+							value="";
 							parentCls="ALiVE_mil_cqb";
 							typeName="blacklist";
 						};
@@ -2277,7 +2277,7 @@ class Mission
 						};
 						class Item2
 						{
-							value="60";
+							value="90";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_he";
 						};
@@ -2295,37 +2295,37 @@ class Mission
 						};
 						class Item5
 						{
-							value="30";
+							value="6";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_guided";
 						};
 						class Item6
 						{
-							value="30";
+							value="0";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_cluster";
 						};
 						class Item7
 						{
-							value="10";
+							value="9";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_lg";
 						};
 						class Item8
 						{
-							value="30";
+							value="6";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_mine";
 						};
 						class Item9
 						{
-							value="30";
+							value="6";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_atmine";
 						};
 						class Item10
 						{
-							value="16";
+							value="0";
 							parentCls="ALiVE_sup_artillery";
 							typeName="artillery_rockets";
 						};
