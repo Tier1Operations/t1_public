@@ -1,0 +1,1 @@
+player addrating 200;
