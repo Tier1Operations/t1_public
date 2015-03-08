@@ -49,13 +49,11 @@ class Mission
 	randomSeed=3318307;
 	class Intel
 	{
-		startWeather=0.66999996;
+		startWeather=0.84999996;
 		startWind=0.099999994;
-		startWaves=0.099999994;
-		forecastWeather=0.38999999;
 		forecastWind=0.099999994;
-		forecastWaves=0.099999994;
-		forecastLightnings=0.099999994;
+		forecastWaves=0;
+		rainForced=1;
 		year=2035;
 		month=6;
 		day=24;
@@ -2230,7 +2228,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15049.889,-0.11057826,15576.592};
+					position[]={15065.403,-0.084352784,15681.317};
 					class args
 					{
 						items=21;
