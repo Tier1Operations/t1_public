@@ -47,10 +47,10 @@ class Mission
 	randomSeed=3318307;
 	class Intel
 	{
-		startWeather=1;
+		startWeather=0.66999996;
 		startWind=0.099999994;
 		startWaves=0.099999994;
-		forecastWeather=1;
+		forecastWeather=0.38999999;
 		forecastWind=0.099999994;
 		forecastWaves=0.099999994;
 		forecastLightnings=0.099999994;
@@ -172,13 +172,13 @@ class Mission
 						};
 						class Item3
 						{
-							value="2500";
+							value="1500";
 							parentCls="ALiVE_sys_profile";
 							typeName="spawnRadius";
 						};
 						class Item4
 						{
-							value="3500";
+							value="2500";
 							parentCls="ALiVE_sys_profile";
 							typeName="spawnTypeHeliRadius";
 						};
