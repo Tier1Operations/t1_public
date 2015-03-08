@@ -1942,7 +1942,7 @@ class Mission
 						};
 						class Item4
 						{
-							value="towns";
+							value="all";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_LOCATIONTYPE";
 						};
@@ -1972,7 +1972,7 @@ class Mission
 						};
 						class Item9
 						{
-							value="Solid";
+							value="None";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_BuildingGrid";
 						};
@@ -2008,7 +2008,7 @@ class Mission
 						};
 						class Item15
 						{
-							value="";
+							value="BLUFOR_1";
 							parentCls="ALiVE_mil_cqb";
 							typeName="blacklist";
 						};
