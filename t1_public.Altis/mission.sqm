@@ -2386,7 +2386,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			position[]={15625.495,18.529222,17175.854};
@@ -2406,6 +2406,12 @@ class Mission
 			colorName="ColorEAST";
 			a=1600;
 			b=1200;
+		};
+		class Item2
+		{
+			position[]={12841.14,86.366898,16715.117};
+			name="respawn_west";
+			type="Empty";
 		};
 	};
 };

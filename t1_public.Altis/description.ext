@@ -1,0 +1,13 @@
+OnLoadName = "Tier1ops.eu public server";
+author = "MaHuJa / Tier1Ops.eu"
+
+respawn = "BASE";
+respawnDelay = 30;
+disabledAI = 1;
+
+
+disableChannels[]={2,6};
+enableItemsDropping = 0;
+
+enableDebugConsole = 1;
+
