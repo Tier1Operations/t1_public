@@ -26,7 +26,7 @@ _this addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_this addItemToVest "HandGrenade";};
 for "_i" from 1 to 5 do {_this addItemToVest "30Rnd_65x39_caseless_mag";};
 for "_i" from 1 to 4 do {_this addItemToVest "1Rnd_HE_Grenade_shell";};
-_this addBackpack "B_Carryall_mcamo";
+_this addBackpack "B_AssaultPack_mcamo";
 for "_i" from 1 to 6 do {_this addItemToBackpack "AGM_Bandage";};
 for "_i" from 1 to 3 do {_this addItemToBackpack "AGM_Morphine";};
 _this addItemToBackpack "AGM_Epipen";
@@ -41,6 +41,8 @@ _this addWeapon "arifle_MX_GL_Black_F";
 _this addPrimaryWeaponItem "acc_pointer_IR";
 _this addPrimaryWeaponItem "optic_Hamr";
 _this addWeapon "Rangefinder";
+_this addWeapon "rhs_weap_M136_hedp";
+
 
 comment "Add items";
 _this linkItem "ItemMap";

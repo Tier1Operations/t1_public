@@ -18,7 +18,6 @@ _this addItemToUniform "AGM_MapTools";
 _this addItemToUniform "ALIVE_Tablet";
 for "_i" from 1 to 4 do {_this addItemToUniform "AGM_CableTie";};
 _this addItemToUniform "AGM_EarBuds";
-_this addItemToUniform "ACRE_PRC343";
 _this addItemToUniform "AGM_Vector";
 _this addItemToUniform "Laserbatteries";
 _this addVest "V_PlateCarrierSpec_rgr";
@@ -36,7 +35,7 @@ _this addHeadgear "H_HelmetB_light";
 _this addGoggles "G_Combat";
 
 comment "Add weapons";
-_this addWeapon "arifle_MX_GL_Black_F";
+_this addWeapon "ej_scar65eglm";
 _this addPrimaryWeaponItem "acc_pointer_IR";
 _this addPrimaryWeaponItem "optic_Hamr";
 _this addWeapon "Laserdesignator";
