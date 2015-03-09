@@ -22,7 +22,9 @@ class Mission
 		"alive_mil_cqb",
 		"alive_sup_combatsupport",
 		"alive_sup_artillery",
-		"alive_mil_c2istar"
+		"alive_mil_c2istar",
+		"alive_sup_cas",
+		"alive_sup_transport"
 	};
 	addOnsAuto[]=
 	{
@@ -43,6 +45,8 @@ class Mission
 		"alive_sup_combatsupport",
 		"alive_sup_artillery",
 		"alive_mil_c2istar",
+		"alive_sup_cas",
+		"alive_sup_transport",
 		"A3_Weapons_F_Ammoboxes",
 		"a3_map_altis"
 	};
@@ -63,7 +67,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=29;
+		items=31;
 		class Item0
 		{
 			side="LOGIC";
@@ -794,7 +798,7 @@ class Mission
 						};
 						class Item8
 						{
-							value="rhs_faction_usarmy_wd";
+							value="rhs_faction_usarmy_wd,BLU_F";
 							parentCls="ALiVE_mil_OPCOM";
 							typeName="factions";
 						};
@@ -1204,13 +1208,13 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12864.574,86.915329,16650.055};
+					position[]={12847.123,89.185844,16652.494};
 					class args
 					{
 						items=5;
 						class Item0
 						{
-							value="LaserDesignator";
+							value="alive_tablet";
 							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
 							typeName="pr_item";
 						};
@@ -2038,7 +2042,7 @@ class Mission
 						items=5;
 						class Item0
 						{
-							value="LaserDesignator";
+							value="alive_tablet";
 							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
 							typeName="pr_item";
 						};
@@ -2090,7 +2094,7 @@ class Mission
 						items=5;
 						class Item0
 						{
-							value="LaserDesignator";
+							value="alive_tablet";
 							parentCls="ALiVE_sup_combatsupport";
 							typeName="combatsupport_item";
 						};
@@ -2126,7 +2130,7 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					syncId=8;
-					synchronizations[]={9};
+					synchronizations[]={9,11,10};
 				};
 			};
 		};
@@ -2240,7 +2244,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="LaserDesignator";
+							value="alive_tablet";
 							parentCls="ALiVE_MIL_C2ISTAR";
 							typeName="c2_item";
 						};
@@ -2368,6 +2372,102 @@ class Mission
 				};
 			};
 		};
+		class Item29
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={15006.39,17.91,17048.576};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="EAGLE ONE";
+							parentCls="ALiVE_sup_cas";
+							typeName="cas_callsign";
+						};
+						class Item1
+						{
+							value="B_Heli_Attack_01_F";
+							parentCls="ALiVE_sup_cas";
+							typeName="cas_type";
+						};
+						class Item2
+						{
+							value="0";
+							parentCls="ALiVE_sup_cas";
+							typeName="cas_height";
+						};
+						class Item3
+						{
+							value="";
+							parentCls="ALiVE_sup_cas";
+							typeName="cas_code";
+						};
+					};
+					id=56;
+					side="LOGIC";
+					vehicle="ALiVE_sup_cas";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=10;
+					synchronizations[]={8};
+				};
+			};
+		};
+		class Item30
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14701.023,17.91,16714.246};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="RODEO TWO";
+							parentCls="ALiVE_SUP_TRANSPORT";
+							typeName="transport_callsign";
+						};
+						class Item1
+						{
+							value="B_Heli_Transport_01_camo_F";
+							parentCls="ALiVE_SUP_TRANSPORT";
+							typeName="transport_type";
+						};
+						class Item2
+						{
+							value="0";
+							parentCls="ALiVE_SUP_TRANSPORT";
+							typeName="transport_height";
+						};
+						class Item3
+						{
+							value="";
+							parentCls="ALiVE_SUP_TRANSPORT";
+							typeName="transport_code";
+						};
+					};
+					id=57;
+					side="LOGIC";
+					vehicle="ALiVE_SUP_TRANSPORT";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=11;
+					synchronizations[]={8};
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -2375,7 +2475,7 @@ class Mission
 		class Item0
 		{
 			position[]={12828.194,87.79393,16643.387};
-			id=56;
+			id=58;
 			side="EMPTY";
 			vehicle="Box_NATO_Support_F";
 			leader=1;
