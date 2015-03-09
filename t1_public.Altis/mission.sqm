@@ -282,7 +282,7 @@ class Mission
 						};
 						class Item9
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="allowManualSave";
 						};
@@ -294,13 +294,13 @@ class Mission
 						};
 						class Item11
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="saveLoadout";
 						};
 						class Item12
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="saveAmmo";
 						};
@@ -312,13 +312,13 @@ class Mission
 						};
 						class Item14
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="savePosition";
 						};
 						class Item15
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_SYS_playeroptions";
 							typeName="saveScores";
 						};
@@ -1122,7 +1122,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="1";
+							value="2";
 							parentCls="acre_api_basicMissionSetup";
 							typeName="BabelSetup";
 						};
