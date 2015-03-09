@@ -67,7 +67,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=31;
+		items=30;
 		class Item0
 		{
 			side="LOGIC";
@@ -2036,58 +2036,6 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15023.759,0.24204342,15427.216};
-					class args
-					{
-						items=5;
-						class Item0
-						{
-							value="alive_tablet";
-							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
-							typeName="pr_item";
-						};
-						class Item1
-						{
-							value="SIDE";
-							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
-							typeName="pr_restrictionType";
-						};
-						class Item2
-						{
-							value="true";
-							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
-							typeName="pr_restrictionDeliveryAirDrop";
-						};
-						class Item3
-						{
-							value="true";
-							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
-							typeName="pr_restrictionDeliveryInsert";
-						};
-						class Item4
-						{
-							value="true";
-							parentCls="ALiVE_SUP_PLAYER_RESUPPLY";
-							typeName="pr_restrictionDeliveryConvoy";
-						};
-					};
-					id=52;
-					side="LOGIC";
-					vehicle="ALiVE_SUP_PLAYER_RESUPPLY";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item26
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
 					position[]={15124.446,-37.352139,15482.139};
 					class args
 					{
@@ -2123,7 +2071,7 @@ class Mission
 							typeName="combatsupport_respawn";
 						};
 					};
-					id=53;
+					id=52;
 					side="LOGIC";
 					vehicle="ALiVE_sup_combatsupport";
 					leader=1;
@@ -2134,7 +2082,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item26
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2213,7 +2161,7 @@ class Mission
 							typeName="artillery_rockets";
 						};
 					};
-					id=54;
+					id=53;
 					side="LOGIC";
 					vehicle="ALiVE_sup_artillery";
 					leader=1;
@@ -2224,7 +2172,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item27
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2363,7 +2311,7 @@ class Mission
 							typeName="runEvery";
 						};
 					};
-					id=55;
+					id=54;
 					side="LOGIC";
 					vehicle="ALiVE_MIL_C2ISTAR";
 					leader=1;
@@ -2372,7 +2320,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item28
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2409,7 +2357,7 @@ class Mission
 							typeName="cas_code";
 						};
 					};
-					id=56;
+					id=55;
 					side="LOGIC";
 					vehicle="ALiVE_sup_cas";
 					leader=1;
@@ -2420,7 +2368,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item29
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2457,7 +2405,7 @@ class Mission
 							typeName="transport_code";
 						};
 					};
-					id=57;
+					id=56;
 					side="LOGIC";
 					vehicle="ALiVE_SUP_TRANSPORT";
 					leader=1;
@@ -2475,7 +2423,7 @@ class Mission
 		class Item0
 		{
 			position[]={12828.194,87.79393,16643.387};
-			id=58;
+			id=57;
 			side="EMPTY";
 			vehicle="Box_NATO_Support_F";
 			leader=1;
