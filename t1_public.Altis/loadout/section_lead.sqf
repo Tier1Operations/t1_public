@@ -37,7 +37,7 @@ _this addHeadgear "H_HelmetB_light";
 _this addGoggles "G_Combat";
 
 comment "Add weapons";
-_this addWeapon "arifle_MX_GL_Black_F";
+_this addWeapon "ej_scar65eglm";
 _this addPrimaryWeaponItem "acc_pointer_IR";
 _this addPrimaryWeaponItem "optic_Hamr";
 _this addWeapon "Rangefinder";
