@@ -12,12 +12,21 @@ removeBackpack _this;
 removeHeadgear _this;
 removeGoggles _this;
 
+comment "Add items";
+_this linkItem "ItemMap";
+_this linkItem "ItemCompass";
+_this linkItem "ItemWatch";
+_this linkItem "ItemGPS";
+_this linkItem "AGM_NVG_Gen4";
+_this linkItem "ItemRadioAcreFlagged";
+
 comment "Add containers";
 _this forceAddUniform "U_B_CombatUniform_mcam";
 _this addItemToUniform "AGM_MapTools";
 _this addItemToUniform "ALIVE_Tablet";
 _this addItemToUniform "AGM_Vector";
 _this addItemToUniform "11Rnd_45ACP_Mag";
+_this addItemToUniform "ACRE_PRC343";
 _this addVest "V_PlateCarrierSpec_rgr";
 _this addItemToVest "SmokeShell";
 _this addItemToVest "SmokeShellGreen";
@@ -40,12 +49,6 @@ _this addWeapon "hgun_Pistol_heavy_01_F";
 _this addHandgunItem "optic_MRD";
 _this addWeapon "Laserdesignator";
 
-comment "Add items";
-_this linkItem "ItemMap";
-_this linkItem "ItemCompass";
-_this linkItem "ItemWatch";
-_this linkItem "ItemGPS";
-_this linkItem "AGM_NVG_Gen4";
 
 
 _this addItemToUniform "Laserbatteries";

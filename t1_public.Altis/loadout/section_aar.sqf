@@ -12,6 +12,15 @@ removeBackpack _this;
 removeHeadgear _this;
 removeGoggles _this;
 
+
+comment "Add items";
+_this linkItem "ItemMap";
+_this linkItem "ItemCompass";
+_this linkItem "ItemWatch";
+_this linkItem "ItemRadioAcreFlagged";
+_this linkItem "ItemGPS";
+_this linkItem "AGM_NVG_Gen4";
+
 comment "Add containers";
 _this forceAddUniform "U_B_CombatUniform_mcam";
 _this addItemToUniform "ACRE_PRC343";
@@ -37,12 +46,4 @@ _this addPrimaryWeaponItem "acc_pointer_IR";
 _this addPrimaryWeaponItem "optic_Hamr";
 _this addWeapon "Rangefinder";
 _this addWeapon "rhs_weap_M136_hedp";
-
-comment "Add items";
-_this linkItem "ItemMap";
-_this linkItem "ItemCompass";
-_this linkItem "ItemWatch";
-_this linkItem "ItemRadioAcreFlagged";
-_this linkItem "ItemGPS";
-_this linkItem "AGM_NVG_Gen4";
 
