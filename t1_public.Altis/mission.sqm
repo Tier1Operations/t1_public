@@ -1952,7 +1952,7 @@ class Mission
 						};
 						class Item5
 						{
-							value="0.02";
+							value="0.05";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_spawn_setting";
 						};
@@ -2234,13 +2234,13 @@ class Mission
 						};
 						class Item8
 						{
-							value="OPF_F";
+							value="rhs_faction_msv";
 							parentCls="ALiVE_MIL_C2ISTAR";
 							typeName="autoGenerateOpforFaction";
 						};
 						class Item9
 						{
-							value="BLU_F";
+							value="rhs_faction_usarmy_wd";
 							parentCls="ALiVE_MIL_C2ISTAR";
 							typeName="autoGenerateOpforEnemyFaction";
 						};
