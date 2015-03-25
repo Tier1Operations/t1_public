@@ -196,7 +196,7 @@ class Mission
 						};
 						class Item6
 						{
-							value="50";
+							value="10";
 							parentCls="ALiVE_sys_profile";
 							typeName="activeLimiter";
 						};
