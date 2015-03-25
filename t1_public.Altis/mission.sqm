@@ -25,7 +25,8 @@ class Mission
 		"alive_mil_c2istar",
 		"alive_sup_cas",
 		"alive_sup_transport",
-		"agm_medical"
+		"agm_medical",
+		"agm_map"
 	};
 	addOnsAuto[]=
 	{
@@ -49,6 +50,7 @@ class Mission
 		"alive_sup_cas",
 		"alive_sup_transport",
 		"agm_medical",
+		"agm_map",
 		"A3_Weapons_F_Ammoboxes",
 		"a3_map_altis"
 	};
@@ -69,7 +71,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=31;
+		items=32;
 		class Item0
 		{
 			side="LOGIC";
@@ -2284,7 +2286,7 @@ class Mission
 						};
 						class Item16
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_MIL_C2ISTAR";
 							typeName="friendlyIntel";
 						};
@@ -2536,6 +2538,40 @@ class Mission
 				};
 			};
 		};
+		class Item31
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12870.09,71.409004,16827.648};
+					class args
+					{
+						items=2;
+						class Item0
+						{
+							value="5";
+							parentCls="AGM_ModuleBlueForceTracking";
+							typeName="Interval";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="AGM_ModuleBlueForceTracking";
+							typeName="HideAiGroups";
+						};
+					};
+					id=58;
+					side="LOGIC";
+					vehicle="AGM_ModuleBlueForceTracking";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -2543,7 +2579,7 @@ class Mission
 		class Item0
 		{
 			position[]={12828.194,87.79393,16643.387};
-			id=58;
+			id=59;
 			side="EMPTY";
 			vehicle="Box_NATO_Support_F";
 			leader=1;
