@@ -114,7 +114,7 @@ class Mission
 						{
 							value="0";
 							parentCls="ALiVE_require";
-							typeName="ALiVE_DISABLEPLAYERLOG";
+							typeName="";
 						};
 						class Item6
 						{
@@ -642,7 +642,7 @@ class Mission
 						};
 						class Item6
 						{
-							value="200";
+							value="100";
 							parentCls="ALiVE_mil_placement";
 							typeName="size";
 						};
@@ -660,7 +660,7 @@ class Mission
 						};
 						class Item9
 						{
-							value="0.75";
+							value="0.5";
 							parentCls="ALiVE_mil_placement";
 							typeName="readinessLevel";
 						};
@@ -1978,7 +1978,7 @@ class Mission
 						{
 							value="None";
 							parentCls="ALiVE_mil_cqb";
-							typeName="CQB_BuildingGrid";
+							typeName="";
 						};
 						class Item10
 						{
@@ -2180,7 +2180,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15065.403,-0.084352784,15681.317};
+					position[]={14824.918,0.026019804,15545.56};
 					class args
 					{
 						items=21;
